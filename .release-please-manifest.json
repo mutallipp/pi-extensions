@@ -6,6 +6,6 @@
   "packages/pi-terminal-mux": "0.2.2",
   "packages/pi-metrics": "0.2.3",
   "packages/pi-models-discovery": "1.0.1",
-  "packages/pi-dynamic-workflows": "1.1.2",
+  "packages/pi-dynamic-workflows": "1.1.3",
   "packages/pi-interactive-subagents": "3.8.2"
 }
