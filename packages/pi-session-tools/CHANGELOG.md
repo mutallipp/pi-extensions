@@ -1,5 +1,70 @@
 # Changelog
 
+## [0.10.0](https://github.com/mutallipp/pi-extensions/compare/pi-session-tools-v0.9.0...pi-session-tools-v0.10.0) (2026-11-06)
+
+
+### Features
+
+* add pi-session-tools package ([bf07b6a](https://github.com/mutallipp/pi-extensions/commit/bf07b6aa682e029b6192bce4c7e8f35be321f26e))
+* add pi-session-tools package ([bacb13e](https://github.com/mutallipp/pi-extensions/commit/bacb13ee75c915408c4de73b1c654203959774a8))
+* **pi-session-resources,pi-session-tools:** 配置命令补齐 SettingsList 面板 ([81dfc83](https://github.com/mutallipp/pi-extensions/commit/81dfc83bf4b17aaf087150712f979ecd5fc0a375))
+* **session-tools:** streamline and enforce session squash ([dea7e72](https://github.com/mutallipp/pi-extensions/commit/dea7e727a1bd2ea2d8a74dbdaf43dcfdc7c68639))
+* **session-tools:** 压缩快照头加 [session] 前缀，展开方向改用箭头 ([5782c68](https://github.com/mutallipp/pi-extensions/commit/5782c6847897e492a8df5d9d2fe8c34948c6911b))
+* **session-tools:** 将摘要直接传入 session_squash ([080d777](https://github.com/mutallipp/pi-extensions/commit/080d7773ef83b44de83eeeccde3d6c1958f14e93))
+* **session-tools:** 支持强制会话压缩 ([55e8c49](https://github.com/mutallipp/pi-extensions/commit/55e8c493ccb28d6a2b3209aa41c99c10f560e255))
+* **session-tools:** 新增配置斜杠命令，阈值支持 k 单位 ([4fd62d9](https://github.com/mutallipp/pi-extensions/commit/4fd62d98cf38d8ba5caaf54f8d76fd172afc2103))
+* **session-tools:** 阈值提示改为停止后立即投递并触发下一轮 ([aca3106](https://github.com/mutallipp/pi-extensions/commit/aca31069a039a890063d4afb85be7bfece472b09))
+* **session-tools:** 阈值提示改为停止后立即投递并触发下一轮 ([899a070](https://github.com/mutallipp/pi-extensions/commit/899a0708fd50ccadd5224dc95a130cfef6eea5c5))
+* show notices as filled transcript blocks under the message ([eb00293](https://github.com/mutallipp/pi-extensions/commit/eb002934f273df12cb109e54817dd16fdb09d52a))
+* 为每个扩展提供配置 Skill ([626a731](https://github.com/mutallipp/pi-extensions/commit/626a73155279e44e89ca10f59b91cea6d174e63d))
+* 为每个扩展提供配置 Skill ([9bb7374](https://github.com/mutallipp/pi-extensions/commit/9bb737457af0ece197894b4b9488373ab5f8e38f))
+* 块头统一 [xxx] 来源前缀，展开方向统一用箭头 ([8cae968](https://github.com/mutallipp/pi-extensions/commit/8cae9688341fa2f47de1014b17ca606acac98694))
+* 所有扩展提示统一加来源标签与颜色 ([21ad9d9](https://github.com/mutallipp/pi-extensions/commit/21ad9d97347118a9817ae445bc03544b7c1c66da))
+* 所有扩展提示统一加来源标签与颜色 ([a06c6f8](https://github.com/mutallipp/pi-extensions/commit/a06c6f86367fc7b43f14b34f754bddc4b6dd340a))
+* 提示改成会话区的带底色消息块，判定结论落在消息下方 ([f42992d](https://github.com/mutallipp/pi-extensions/commit/f42992d39af35e3fda33f681f833d89408cb4a3a))
+* 统一全仓库配置 UI 为 SettingsList 面板 + 新增 pi-gen-ui ([c67a8c3](https://github.com/mutallipp/pi-extensions/commit/c67a8c3356f249ef5a49699d05ad2824b2ac008a))
+
+
+### Bug Fixes
+
+* make session squash handoffs actionable ([b178f4f](https://github.com/mutallipp/pi-extensions/commit/b178f4f5db928cd60797d7f91fec02d7d9cec0e5))
+* make session squash handoffs actionable ([14362f2](https://github.com/mutallipp/pi-extensions/commit/14362f22064773d2adb897f56360ee71bcc687ca))
+* mark session squash as compaction summary ([11c141c](https://github.com/mutallipp/pi-extensions/commit/11c141c092b1fedee0a9fe6588b3dad0d98f8b4c))
+* pi peer 范围只保留下限 &gt;=0.80.0 ([fdc012c](https://github.com/mutallipp/pi-extensions/commit/fdc012c7a0a968712cea4430afd7780eab53420b))
+* **pi-session-tools:** 压缩分支重建上下文时保留 system 消息 ([e79a0f1](https://github.com/mutallipp/pi-extensions/commit/e79a0f1c2dc96a50c6806ead545819c0750cb30d))
+* **pi-session-tools:** 压缩分支重建上下文时保留 system 消息 ([193bb3c](https://github.com/mutallipp/pi-extensions/commit/193bb3c6365d2919f4b1eae5565544e2a1a4b64c))
+* **pi-session-tools:** 压缩后把 system 消息放回请求头，避免丢失提示与工具声明 ([564d096](https://github.com/mutallipp/pi-extensions/commit/564d096dc997f729158babedfd0116d3e2b8b906))
+* **pi-session-tools:** 压缩后把 system 消息放回请求头，避免丢失提示与工具声明 ([b17ca07](https://github.com/mutallipp/pi-extensions/commit/b17ca07105e1e9af8d50295b15bf41bff6e8a623))
+* **pi-session-tools:** 压缩快照消息默认收起为一行 ([0c527bc](https://github.com/mutallipp/pi-extensions/commit/0c527bc000c9f9b9acd5be6a5b6997eb6bbc0e87))
+* **pi-session-tools:** 压缩快照消息默认收起为一行 ([fcf36bd](https://github.com/mutallipp/pi-extensions/commit/fcf36bda442f25d8507d3430165b24e02ac196fd))
+* **session-tools:** allow reusing squash anchors ([2e87d10](https://github.com/mutallipp/pi-extensions/commit/2e87d10316c18222fa0237ba4796b1d8a72126ca))
+* **session-tools:** avoid replay after completed squash ([34a59fb](https://github.com/mutallipp/pi-extensions/commit/34a59fb8c81750f5f48542e52720e4d8298810a1))
+* **session-tools:** improve squash continuation ([c527589](https://github.com/mutallipp/pi-extensions/commit/c5275890fd3c6c188bec540e11c06009945b19f2))
+* **session-tools:** improve squash guidance ([0994876](https://github.com/mutallipp/pi-extensions/commit/099487670e99658be1746953d584dd7ac853f06c))
+* **session-tools:** improve squash guidance ([2aff695](https://github.com/mutallipp/pi-extensions/commit/2aff695b0d4e44bd88700e9b05f053d8f45bdb7b))
+* **session-tools:** require explicit squash continuation ([f753405](https://github.com/mutallipp/pi-extensions/commit/f7534050a57831413efc3b8a79238498ae5d6f34))
+* **session-tools:** require explicit squash continuation ([43ad7ed](https://github.com/mutallipp/pi-extensions/commit/43ad7edc3a190e2598013215da7ad760d76cf503))
+* **session-tools:** 强制阈值改用数字比例 ([ac22144](https://github.com/mutallipp/pi-extensions/commit/ac221446f8e04f7711b513eae3b30573d282b54c))
+* **session-tools:** 支持从更早索引重新压缩 ([ac66fc0](https://github.com/mutallipp/pi-extensions/commit/ac66fc0242acdf3e320b3bdf683296056d829647))
+* stop old agent run after session squash ([b7fb971](https://github.com/mutallipp/pi-extensions/commit/b7fb9714a53c5e3f48c0d7c7096ba397b0e42e2c))
+* suppress reminders after aborted or failed runs ([a23d950](https://github.com/mutallipp/pi-extensions/commit/a23d950c716909a5e563f19d616e150a529fd54e))
+* 去掉 pi peer 上界并升级依赖到 0.85.1 ([28e897e](https://github.com/mutallipp/pi-extensions/commit/28e897eb45d76e91ca8ac6ac2a508a36c76c5682))
+* 将配置 Skill 放入各扩展根目录 ([57a9863](https://github.com/mutallipp/pi-extensions/commit/57a98635e63856df6631f3cfe724c325b28f15cc))
+* 忽略异常终止的自动提醒 ([743ac5a](https://github.com/mutallipp/pi-extensions/commit/743ac5a7886165fcc4f98150f648e70202b4f4fe))
+* 提交压缩后终止旧 agent run ([e5b1bb8](https://github.com/mutallipp/pi-extensions/commit/e5b1bb8ad969770b08d8380f41292d6756084eea))
+* 放宽 pi peer 范围并升级依赖到 0.85.1 ([3444c0c](https://github.com/mutallipp/pi-extensions/commit/3444c0cb4836006348fc6a9fbd30fe36bdc98ced))
+* 放宽会话总结格式限制 ([6385918](https://github.com/mutallipp/pi-extensions/commit/6385918cdcbd643e4711802ef709e772552b4183))
+* 放宽会话总结格式限制 ([489ae8f](https://github.com/mutallipp/pi-extensions/commit/489ae8f699ce5c347796182295fc38cc4cf67134))
+* 精简会话压缩时间线 ([d1fe2c4](https://github.com/mutallipp/pi-extensions/commit/d1fe2c4a494f5db805376f8041fd2b418fea270f))
+* 精简会话压缩时间线 ([d38bd4d](https://github.com/mutallipp/pi-extensions/commit/d38bd4da3192f7fd39333962093dc239d1ccb918))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * pi-extensions-i18n bumped from ^0.9.0 to ^0.10.0
+
 ## [0.9.0](https://github.com/maplezzk/pi-extensions/compare/pi-session-tools-v0.8.0...pi-session-tools-v0.9.0) (2026-10-05)
 
 

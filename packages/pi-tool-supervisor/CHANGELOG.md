@@ -1,5 +1,74 @@
 # Changelog
 
+## [0.12.0](https://github.com/mutallipp/pi-extensions/compare/pi-tool-supervisor-v0.11.0...pi-tool-supervisor-v0.12.0) (2026-11-06)
+
+
+### Features
+
+* **pi-tool-supervisor:** add Cloudflare Clef review backend ([9e1675f](https://github.com/mutallipp/pi-extensions/commit/9e1675f014f5c206ef31a0198ec400dbeff529a4))
+* **pi-tool-supervisor:** generalize tool review lifecycle ([6b062ee](https://github.com/mutallipp/pi-extensions/commit/6b062ee72c24181e7cb4faf61c2ea5c7c40cc89c))
+* **pi-tool-supervisor:** support Cloudflare Clef and Clef Flash ([04caabf](https://github.com/mutallipp/pi-extensions/commit/04caabf1002a8ec868a0e280b70001bd221f12fa))
+* **pi-tool-supervisor:** support configurable tool review lifecycle ([077b3cf](https://github.com/mutallipp/pi-extensions/commit/077b3cfcffc440140eefff5a42d60ed6e273a093))
+* show notices as filled transcript blocks under the message ([eb00293](https://github.com/mutallipp/pi-extensions/commit/eb002934f273df12cb109e54817dd16fdb09d52a))
+* **supervisor:** support native OpenAI Decisions reviews ([6ffbde6](https://github.com/mutallipp/pi-extensions/commit/6ffbde66700b5a5289928eff3b696b94825ad98f))
+* **tool-supervisor:** add a TypeSafe judgment review backend ([679dfd2](https://github.com/mutallipp/pi-extensions/commit/679dfd2b540e0bc7c998b469b07f7373fbb7f7ce))
+* **tool-supervisor:** TypeSafe judgment review backend ([ac44951](https://github.com/mutallipp/pi-extensions/commit/ac449518843d49e98914b8967fba110782fcb44e))
+* **tool-supervisor:** 支持一个规则文件里写多条规则 ([fceabdc](https://github.com/mutallipp/pi-extensions/commit/fceabdc310cf5f691f970b0b4f243876a89cf393))
+* **tool-supervisor:** 支持在 config.json 里配置 TypeSafe API Key ([131f98d](https://github.com/mutallipp/pi-extensions/commit/131f98d5919904563a24ce7c4bfb8fd3ad466adc))
+* **tool-supervisor:** 支持条件模块审查 ([7f5a4d4](https://github.com/mutallipp/pi-extensions/commit/7f5a4d4588854ff5bb9d8e56c45af102b9505998))
+* **tool-supervisor:** 支持条件模块审查 ([074f1dc](https://github.com/mutallipp/pi-extensions/commit/074f1dc1acd88f4727faff53cff2fb49920b2064))
+* 为每个扩展提供配置 Skill ([626a731](https://github.com/mutallipp/pi-extensions/commit/626a73155279e44e89ca10f59b91cea6d174e63d))
+* 为每个扩展提供配置 Skill ([9bb7374](https://github.com/mutallipp/pi-extensions/commit/9bb737457af0ece197894b4b9488373ab5f8e38f))
+* 所有扩展提示统一加来源标签与颜色 ([21ad9d9](https://github.com/mutallipp/pi-extensions/commit/21ad9d97347118a9817ae445bc03544b7c1c66da))
+* 所有扩展提示统一加来源标签与颜色 ([a06c6f8](https://github.com/mutallipp/pi-extensions/commit/a06c6f86367fc7b43f14b34f754bddc4b6dd340a))
+* 提示改成会话区的带底色消息块，判定结论落在消息下方 ([f42992d](https://github.com/mutallipp/pi-extensions/commit/f42992d39af35e3fda33f681f833d89408cb4a3a))
+* 支持 OpenAI Decisions 审查后端 ([d1186a2](https://github.com/mutallipp/pi-extensions/commit/d1186a2b9b86dce25cc144305e9df13714a3f811))
+* 统一全仓库配置 UI 为 SettingsList 面板 + 新增 pi-gen-ui ([c67a8c3](https://github.com/mutallipp/pi-extensions/commit/c67a8c3356f249ef5a49699d05ad2824b2ac008a))
+
+
+### Bug Fixes
+
+* correct generic tool review lifecycle ([33d7390](https://github.com/mutallipp/pi-extensions/commit/33d7390633af9cc0f97862b1305eb58d01b6fba4))
+* hide supervisor diagnostics from TUI output ([6a13b3d](https://github.com/mutallipp/pi-extensions/commit/6a13b3d42357e6de9f57d2df98d9c94891ba8943))
+* hide supervisor diagnostics from TUI output ([5ca1f02](https://github.com/mutallipp/pi-extensions/commit/5ca1f0299b1f46a610899eac674537daacac3365))
+* hide supervisor reviewer failures from Agent ([3c0c25d](https://github.com/mutallipp/pi-extensions/commit/3c0c25da2fd3a263de7d07c94dba81c6f7607cd9))
+* pi peer 范围只保留下限 &gt;=0.80.0 ([fdc012c](https://github.com/mutallipp/pi-extensions/commit/fdc012c7a0a968712cea4430afd7780eab53420b))
+* **pi-tool-supervisor:** complete lifecycle review coverage ([54a1fec](https://github.com/mutallipp/pi-extensions/commit/54a1fec1d84394a38c9608e2699fa6dc5ca6d802))
+* **pi-tool-supervisor:** support recursive globstars ([167acc0](https://github.com/mutallipp/pi-extensions/commit/167acc0aa53d3764b650b835f098eb9a00ab9d6f))
+* **pi-tool-supervisor:** support recursive globstars ([2bf7be2](https://github.com/mutallipp/pi-extensions/commit/2bf7be2b864bf5cd5eab127ef4f0e114686c4a5f))
+* propagate interrupts to extension model calls ([41147db](https://github.com/mutallipp/pi-extensions/commit/41147db155b6d52c261dea1bc70190983272f803))
+* propagate interrupts to extension model calls ([5c2f040](https://github.com/mutallipp/pi-extensions/commit/5c2f040a38bb644a0153d5b3e0d24d7307e40936))
+* remove supervisor output truncation ([8942759](https://github.com/mutallipp/pi-extensions/commit/8942759e0f14b392a84d77019f47aca0ac101a91))
+* remove supervisor output truncation ([425b417](https://github.com/mutallipp/pi-extensions/commit/425b417f5c852d74a72980e1e47dcdd6f545a7af))
+* **safety-guards:** explain blocked external paths ([6c0e923](https://github.com/mutallipp/pi-extensions/commit/6c0e9233b2edb1e522eecf68d54b146e41a92bfe))
+* **tool-supervisor:** include numbered file context ([d15629d](https://github.com/mutallipp/pi-extensions/commit/d15629db2bd07f0c7174bc401cc8566f81bb457b))
+* **tool-supervisor:** include numbered file context ([f0e3cb1](https://github.com/mutallipp/pi-extensions/commit/f0e3cb187bebbddf8aeee493288fc82c976dd0f1))
+* **tool-supervisor:** 合并多个规则文件时判断 id 不再跨文件重号 ([9c145b4](https://github.com/mutallipp/pi-extensions/commit/9c145b403133aaf37facfa2d59397c270c1c471b))
+* **tool-supervisor:** 合并多个规则文件时判断 id 不再跨文件重号 ([85b7bdb](https://github.com/mutallipp/pi-extensions/commit/85b7bdb2fcb675fc86bd82d9918e9cfa54a62c98))
+* 保留工具审查生命周期审计 ([2bbc69d](https://github.com/mutallipp/pi-extensions/commit/2bbc69d1f903b209ce41edcc845e415fd1ab37ca))
+* 去掉 pi peer 上界并升级依赖到 0.85.1 ([28e897e](https://github.com/mutallipp/pi-extensions/commit/28e897eb45d76e91ca8ac6ac2a508a36c76c5682))
+* 审查结论与 findings 冲突时不再误阻断编辑 ([3eefb2b](https://github.com/mutallipp/pi-extensions/commit/3eefb2b9e78b46856afd79e4f0e9abf6babdb9fd))
+* 审查结论与 findings 冲突时不再误阻断编辑 ([214089b](https://github.com/mutallipp/pi-extensions/commit/214089be3dbf60aa8ef0c5aeaf95f192bb55e687))
+* 将 supervisor 错误改为 UI 通知 ([2c6270f](https://github.com/mutallipp/pi-extensions/commit/2c6270f49f720e831edd95a7307c5a01f47f9190))
+* 将 supervisor 错误改为 UI 通知 ([c2e463d](https://github.com/mutallipp/pi-extensions/commit/c2e463d9e224a9ed31ac8b14b8ca78c224426ff3))
+* 将配置 Skill 放入各扩展根目录 ([57a9863](https://github.com/mutallipp/pi-extensions/commit/57a98635e63856df6631f3cfe724c325b28f15cc))
+* 扩展自建模型请求改用共享的 Pi 模型请求抽象 ([d6e817c](https://github.com/mutallipp/pi-extensions/commit/d6e817c33c68330d2a95486c8a7aade80f370123))
+* 扩展自建模型请求改用共享的 Pi 模型请求抽象 ([961f354](https://github.com/mutallipp/pi-extensions/commit/961f354a2c5200edb9417e90c443ede65d305225))
+* 放宽 pi peer 范围并升级依赖到 0.85.1 ([3444c0c](https://github.com/mutallipp/pi-extensions/commit/3444c0cb4836006348fc6a9fbd30fe36bdc98ced))
+* 隐藏 supervisor 审查错误的原始 TUI 输出 ([ece051b](https://github.com/mutallipp/pi-extensions/commit/ece051bba08167932639ef29a101850b42c36d01))
+* 隐藏审查失败给 Agent 的错误 ([d29af84](https://github.com/mutallipp/pi-extensions/commit/d29af8469f071569ff1056d408fbd34882a10a41))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * pi-extensions-i18n bumped from ^0.9.0 to ^0.10.0
+    * pi-model-request bumped from ^0.1.1 to ^0.1.2
+    * pi-extensions-tool-display bumped from ^1.3.3 to ^1.4.0
+  * devDependencies
+    * pi-model-request bumped from ^0.1.1 to ^0.1.2
+
 ## [0.11.0](https://github.com/maplezzk/pi-extensions/compare/pi-tool-supervisor-v0.10.0...pi-tool-supervisor-v0.11.0) (2026-10-17)
 
 

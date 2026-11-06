@@ -1,5 +1,41 @@
 # Changelog
 
+## [0.6.0](https://github.com/mutallipp/pi-extensions/compare/pi-nested-skills-v0.5.0...pi-nested-skills-v0.6.0) (2026-11-06)
+
+
+### Features
+
+* show notices as filled transcript blocks under the message ([eb00293](https://github.com/mutallipp/pi-extensions/commit/eb002934f273df12cb109e54817dd16fdb09d52a))
+* 所有扩展提示统一加来源标签与颜色 ([21ad9d9](https://github.com/mutallipp/pi-extensions/commit/21ad9d97347118a9817ae445bc03544b7c1c66da))
+* 所有扩展提示统一加来源标签与颜色 ([a06c6f8](https://github.com/mutallipp/pi-extensions/commit/a06c6f86367fc7b43f14b34f754bddc4b6dd340a))
+* 把 pi-notifications 与 pi-nested-skills 的配置改成 SettingsList 面板 ([e07845b](https://github.com/mutallipp/pi-extensions/commit/e07845b70dc2611e21f16767acd915bd732e1ace))
+* 提示改成会话区的带底色消息块，判定结论落在消息下方 ([f42992d](https://github.com/mutallipp/pi-extensions/commit/f42992d39af35e3fda33f681f833d89408cb4a3a))
+* 新增嵌套技能插件 ([f0a5cba](https://github.com/mutallipp/pi-extensions/commit/f0a5cbaf8843518e7fc2464be63486995e3d74c8))
+* 新增嵌套技能插件 ([331cdd7](https://github.com/mutallipp/pi-extensions/commit/331cdd7cffa10160407a3dd4994ce6da5f4dc3ee))
+* 统一全仓库配置 UI 为 SettingsList 面板 + 新增 pi-gen-ui ([c67a8c3](https://github.com/mutallipp/pi-extensions/commit/c67a8c3356f249ef5a49699d05ad2824b2ac008a))
+* 统一插件配置文件与斜杠命令 ([0a72e38](https://github.com/mutallipp/pi-extensions/commit/0a72e38eca217d044e4a0d36894bba5bc45af256))
+* 统一插件配置文件与斜杠命令 ([5bc2191](https://github.com/mutallipp/pi-extensions/commit/5bc21917f358fc094c832e6f211ec7771349fa8e))
+
+
+### Bug Fixes
+
+* pi peer 范围只保留下限 &gt;=0.80.0 ([fdc012c](https://github.com/mutallipp/pi-extensions/commit/fdc012c7a0a968712cea4430afd7780eab53420b))
+* **safety-guards:** explain blocked external paths ([6c0e923](https://github.com/mutallipp/pi-extensions/commit/6c0e9233b2edb1e522eecf68d54b146e41a92bfe))
+* 使用 TUI 配置插件设置 ([47b1524](https://github.com/mutallipp/pi-extensions/commit/47b152459b89a3d41a0c11250f0994bd5d4a8eba))
+* 去掉 pi peer 上界并升级依赖到 0.85.1 ([28e897e](https://github.com/mutallipp/pi-extensions/commit/28e897eb45d76e91ca8ac6ac2a508a36c76c5682))
+* 合入 main 解决通知插件冲突并修复测试竞态 ([ddfbf0a](https://github.com/mutallipp/pi-extensions/commit/ddfbf0a8a8d7527fab4da4d53a59a22974244fa8))
+* 同步 main 并解决命名插件登记冲突 ([de731e1](https://github.com/mutallipp/pi-extensions/commit/de731e1a0fec2153f56d8821b071638adc614d92))
+* 将 supervisor 错误改为 UI 通知 ([2c6270f](https://github.com/mutallipp/pi-extensions/commit/2c6270f49f720e831edd95a7307c5a01f47f9190))
+* 改为 TUI 配置交互 ([3bd68af](https://github.com/mutallipp/pi-extensions/commit/3bd68afc58dd81f02d32045b2b64d785d70c0542))
+* 放宽 pi peer 范围并升级依赖到 0.85.1 ([3444c0c](https://github.com/mutallipp/pi-extensions/commit/3444c0cb4836006348fc6a9fbd30fe36bdc98ced))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * pi-extensions-i18n bumped from ^0.9.0 to ^0.10.0
+
 ## [0.5.0](https://github.com/maplezzk/pi-extensions/compare/pi-nested-skills-v0.4.2...pi-nested-skills-v0.5.0) (2026-10-05)
 
 
