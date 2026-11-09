@@ -1,5 +1,39 @@
 # Changelog
 
+## [0.7.0](https://github.com/mutallipp/pi-extensions/compare/pi-terminal-mux-v0.6.9...pi-terminal-mux-v0.7.0) (2026-11-09)
+
+
+### Features
+
+* add configurable Herdr subagent layouts ([aa85f53](https://github.com/mutallipp/pi-extensions/commit/aa85f537a36ec71c06d157b7628f7d842afeba65))
+* add configurable Herdr subagent layouts ([94319eb](https://github.com/mutallipp/pi-extensions/commit/94319eb907b4af0a9b8912b9ac5ec53e69d91326))
+* 提供终端改名结果与目标归属协议 ([f44cf8a](https://github.com/mutallipp/pi-extensions/commit/f44cf8a23faf2fa165dd389cfadcac5ec3efed0f))
+* 提供终端目标归属协议并保护共享标题 ([fd29ef8](https://github.com/mutallipp/pi-extensions/commit/fd29ef8ac8f9d2802af219e4898de25015bff3b1))
+* 返回终端改名能力和执行结果 ([97179c4](https://github.com/mutallipp/pi-extensions/commit/97179c4ace36995b567a3003fb9aab914e4e1e04))
+* 通用化终端命名目标解析 ([fe5323d](https://github.com/mutallipp/pi-extensions/commit/fe5323d7e2f028a87d7ad51f1ff99c3e49410fc6))
+* 通用化终端命名目标解析 ([125d775](https://github.com/mutallipp/pi-extensions/commit/125d77518dc4b67781fc59a9759938286e2cfb07))
+
+
+### Bug Fixes
+
+* **pi-terminal-mux:** force cmux surface cleanup ([#250](https://github.com/mutallipp/pi-extensions/issues/250)) ([aa06735](https://github.com/mutallipp/pi-extensions/commit/aa0673595b7c9f0aa8987fbb1089a73d05485916)), closes [#249](https://github.com/mutallipp/pi-extensions/issues/249)
+* **pi-terminal-mux:** keep runtime helpers internal ([2567bd3](https://github.com/mutallipp/pi-extensions/commit/2567bd38c6de0d4a6ca7a0e76b80a678b574e00c))
+* **pi-terminal-mux:** never close a shared tab when an orca pane fails to close ([7d9c9ae](https://github.com/mutallipp/pi-extensions/commit/7d9c9aee98d8369d776e7c320d6cd407dbeb6cd9))
+* **pi-terminal-mux:** never close a shared tab when an orca pane fails to close ([092133c](https://github.com/mutallipp/pi-extensions/commit/092133c9ff06c1801c98fa63e67b5badfea3452a))
+* **pi-terminal-mux:** support Windows PowerShell in wezterm/herdr paths ([daa842f](https://github.com/mutallipp/pi-extensions/commit/daa842f1e8900449fdbf7d41ae7fa0020db0aa27))
+* **pi-terminal-mux:** support Windows PowerShell panes ([789f411](https://github.com/mutallipp/pi-extensions/commit/789f4116f839e43ec3c375530158d83a60423664))
+* **safety-guards:** explain blocked external paths ([6c0e923](https://github.com/mutallipp/pi-extensions/commit/6c0e9233b2edb1e522eecf68d54b146e41a92bfe))
+* 修复 Herdr 分屏状态失效导致子 Agent 启动失败 ([35945a3](https://github.com/mutallipp/pi-extensions/commit/35945a340ccd4758ccfb20db9f9862e8e46f49d9))
+* 修复 Herdr 分屏状态失效导致子 Agent 启动失败 ([53540de](https://github.com/mutallipp/pi-extensions/commit/53540de63c8a5cdd1822f543da301043a1c9793b))
+* 捕获共享终端的准确改名目标 ([3d94110](https://github.com/mutallipp/pi-extensions/commit/3d9411097319dcc5546c22808ec398e0b9d999f1))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * pi-extensions-i18n bumped from ^0.9.0 to ^0.10.0
+
 ## [0.6.9](https://github.com/maplezzk/pi-extensions/compare/pi-terminal-mux-v0.6.8...pi-terminal-mux-v0.6.9) (2026-11-06)
 
 

@@ -1,5 +1,59 @@
 # Changelog
 
+## [0.8.0](https://github.com/mutallipp/pi-extensions/compare/pi-naming-v0.7.2...pi-naming-v0.8.0) (2026-11-09)
+
+
+### Features
+
+* **pi-naming:** add deterministic prompt titles ([b690ed8](https://github.com/mutallipp/pi-extensions/commit/b690ed8e690e46eda719aadd39bc317fdbac8b61))
+* **pi-naming:** add deterministic prompt titles ([d758347](https://github.com/mutallipp/pi-extensions/commit/d758347c1f394324bc6058260c9fccccb68ee35f))
+* show notices as filled transcript blocks under the message ([eb00293](https://github.com/mutallipp/pi-extensions/commit/eb002934f273df12cb109e54817dd16fdb09d52a))
+* 开放命名偏好与会话名称同步配置 ([d7725a5](https://github.com/mutallipp/pi-extensions/commit/d7725a59c3a9d58867b5cb288ab165bd1ae7d4c4))
+* 所有扩展提示统一加来源标签与颜色 ([21ad9d9](https://github.com/mutallipp/pi-extensions/commit/21ad9d97347118a9817ae445bc03544b7c1c66da))
+* 所有扩展提示统一加来源标签与颜色 ([a06c6f8](https://github.com/mutallipp/pi-extensions/commit/a06c6f86367fc7b43f14b34f754bddc4b6dd340a))
+* 提供终端改名结果与目标归属协议 ([f44cf8a](https://github.com/mutallipp/pi-extensions/commit/f44cf8a23faf2fa165dd389cfadcac5ec3efed0f))
+* 提示改成会话区的带底色消息块，判定结论落在消息下方 ([f42992d](https://github.com/mutallipp/pi-extensions/commit/f42992d39af35e3fda33f681f833d89408cb4a3a))
+* 新增会话与终端命名插件 ([66c7fcd](https://github.com/mutallipp/pi-extensions/commit/66c7fcd551c45af6859593d446e23c1555a13286))
+* 统一会话与终端命名入口并支持安全组合 ([fe583f2](https://github.com/mutallipp/pi-extensions/commit/fe583f23c1677e063fb9534e9f20def628de15ab))
+* 统一会话与终端命名并支持独立组合 ([374b311](https://github.com/mutallipp/pi-extensions/commit/374b3110a879bd68362afdf435b813ae19117add))
+* 统一全仓库配置 UI 为 SettingsList 面板 + 新增 pi-gen-ui ([c67a8c3](https://github.com/mutallipp/pi-extensions/commit/c67a8c3356f249ef5a49699d05ad2824b2ac008a))
+* 统一插件配置文件与斜杠命令 ([0a72e38](https://github.com/mutallipp/pi-extensions/commit/0a72e38eca217d044e4a0d36894bba5bc45af256))
+* 统一插件配置文件与斜杠命令 ([5bc2191](https://github.com/mutallipp/pi-extensions/commit/5bc21917f358fc094c832e6f211ec7771349fa8e))
+* 通用化终端命名目标解析 ([fe5323d](https://github.com/mutallipp/pi-extensions/commit/fe5323d7e2f028a87d7ad51f1ff99c3e49410fc6))
+* 通用化终端命名目标解析 ([125d775](https://github.com/mutallipp/pi-extensions/commit/125d77518dc4b67781fc59a9759938286e2cfb07))
+
+
+### Bug Fixes
+
+* pi peer 范围只保留下限 &gt;=0.80.0 ([fdc012c](https://github.com/mutallipp/pi-extensions/commit/fdc012c7a0a968712cea4430afd7780eab53420b))
+* pi-naming 标题输出预算改为可配置的 title.maxTokens ([489c5c6](https://github.com/mutallipp/pi-extensions/commit/489c5c6f360ac21de59a599ab0314b5041cd8268))
+* pi-naming 标题预算与思考档位改为独立配置 ([d76b5b5](https://github.com/mutallipp/pi-extensions/commit/d76b5b5f99833d4a998420afc7595e6f6790a449))
+* **pi-naming:** 入口开关改成调用时判定，不再要求 /reload ([795fd7d](https://github.com/mutallipp/pi-extensions/commit/795fd7dbd0251f6c283736039ecc390b70b1a272))
+* **safety-guards:** explain blocked external paths ([6c0e923](https://github.com/mutallipp/pi-extensions/commit/6c0e9233b2edb1e522eecf68d54b146e41a92bfe))
+* 三个包补上 @earendil-works/pi-tui 依赖声明 ([f513cfd](https://github.com/mutallipp/pi-extensions/commit/f513cfd68b29739f95b4431f60312143dcd92ad4))
+* 优化配置命令交互菜单 ([ea8f56e](https://github.com/mutallipp/pi-extensions/commit/ea8f56e3ddceff2a081b181734a5db2de3cdf805))
+* 使用 TUI 配置插件设置 ([47b1524](https://github.com/mutallipp/pi-extensions/commit/47b152459b89a3d41a0c11250f0994bd5d4a8eba))
+* 保证命名依赖发布顺序 ([2617491](https://github.com/mutallipp/pi-extensions/commit/261749115412d6c52d21f1a85894dd0b7c31f08f))
+* 去掉 pi peer 上界并升级依赖到 0.85.1 ([28e897e](https://github.com/mutallipp/pi-extensions/commit/28e897eb45d76e91ca8ac6ac2a508a36c76c5682))
+* 命名综合用户消息并优先主要任务 ([66d421e](https://github.com/mutallipp/pi-extensions/commit/66d421ebeddbfa0f1725cb7c61c21faeff98e3d4))
+* 命名综合用户消息并优先主要任务 ([20aaa2f](https://github.com/mutallipp/pi-extensions/commit/20aaa2f9c0b56b26cc40e1eae694098c698de8a2))
+* 扩展自建模型请求改用共享的 Pi 模型请求抽象 ([d6e817c](https://github.com/mutallipp/pi-extensions/commit/d6e817c33c68330d2a95486c8a7aade80f370123))
+* 扩展自建模型请求改用共享的 Pi 模型请求抽象 ([961f354](https://github.com/mutallipp/pi-extensions/commit/961f354a2c5200edb9417e90c443ede65d305225))
+* 改为 TUI 配置交互 ([3bd68af](https://github.com/mutallipp/pi-extensions/commit/3bd68afc58dd81f02d32045b2b64d785d70c0542))
+* 放宽 pi peer 范围并升级依赖到 0.85.1 ([3444c0c](https://github.com/mutallipp/pi-extensions/commit/3444c0cb4836006348fc6a9fbd30fe36bdc98ced))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * pi-extensions-i18n bumped from ^0.9.0 to ^0.10.0
+    * pi-model-request bumped from ^0.1.1 to ^0.1.2
+    * pi-terminal-mux bumped from ^0.6.9 to ^0.7.0
+  * devDependencies
+    * pi-model-request bumped from ^0.1.1 to ^0.1.2
+    * pi-terminal-mux bumped from ^0.6.9 to ^0.7.0
+
 ## [0.7.2](https://github.com/maplezzk/pi-extensions/compare/pi-naming-v0.7.1...pi-naming-v0.7.2) (2026-11-06)
 
 
